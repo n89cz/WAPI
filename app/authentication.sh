@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#source "$(dirname $0)"/"configuration.sh"
-
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 source "$DIR/../app/configuration.sh"
 
