@@ -1,6 +1,6 @@
 source "$(dirname $0)"/"authentication.sh"
 
-#max 1000 request per hour per user accout
+#max 100 requests per hour per user accout
 
 DOMAIN="$1"
 
