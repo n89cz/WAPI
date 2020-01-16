@@ -1,3 +1,8 @@
+if [ -z "$1" ]; then
+    echo '$1 required'
+    exit 1
+fi
+
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 source "$DIR/../app/authentication.sh"
 

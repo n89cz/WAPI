@@ -1,4 +1,5 @@
-source "$(dirname $0)"/"authentication.sh"
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+source "$DIR/../app/authentication.sh"
 
 #max 100 requests per hour per user accout
 
